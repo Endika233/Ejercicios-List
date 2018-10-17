@@ -49,7 +49,10 @@ namespace Ejercicios_List
                     }
                     catch { Console.WriteLine("El tipo de dato introducido no es correcto"); }
                 }
-                else
+                else if (respuesta.Contains("-"))
+                {
+                }
+                else 
                 {
                     try
                     {
